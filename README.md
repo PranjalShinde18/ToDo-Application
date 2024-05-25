@@ -1,37 +1,40 @@
-# ToDo-Application
+# ToDo Application
 
-Start MongoDB Server:
+This project is a Full Stack MERN (MongoDB, Express.js, React.js, Node.js) application designed to manage tasks efficiently. Users can create new tasks with deadlines, update existing tasks, and delete completed tasks.
 
-Ensure that MongoDB is installed on your system.
-Start the MongoDB server locally.
-Verify that the MongoDB server is running at the default localhost address.
-Install Node Dependencies:
+## Usage
 
-Navigate to the project directory in your terminal.
-Install the required dependencies by running:
-bash
-Copy code
-npm install
-Usage
-Start Client Application:
+1. Clone the repository:
 
-Navigate to the client folder:
-bash
-Copy code
-cd client
-Start the client application:
-bash
-Copy code
-npm start
-The client application will open in your default web browser.
-Start Server:
+```bash
+git clone https://github.com/your-username/todo-application.git
 
-Navigate to the server folder:
-bash
-Copy code
+2. Install all the dependencies:
+
+# Install server dependencies
 cd server
-Start the server:
-bash
-Copy code
+npm install
+
+# Install client dependencies
+cd ../client
+npm install
+
+3. Run MongoDB locally or update the MongoDB connection URL in the code to your server URL if different.
+
+4. Start the server:
+
+# Inside the server folder
+```bash
 nodemon index.js
-The server will start running locally.
+
+5. Start the client:
+
+# Inside the client folder
+```bash
+npm start
+
+
+Features
+Create New Task: Users can create new tasks with deadlines to keep track of upcoming work.
+Update Task: Existing tasks can be updated to reflect changes or progress.
+Delete Task: Completed tasks can be deleted to maintain a clean task list.
