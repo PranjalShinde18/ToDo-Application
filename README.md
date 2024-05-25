@@ -2,8 +2,6 @@
 
 This project is a Full Stack MERN (MongoDB, Express.js, React.js, Node.js) application designed to manage tasks efficiently. Users can create new tasks with deadlines, update existing tasks, and delete completed tasks.
 
-## Usage
-
 1. Clone the repository:
 
 ```bash
@@ -12,13 +10,13 @@ git clone https://github.com/your-username/todo-application.git
 
 2. Install all the dependencies:
 
-# Install server dependencies
+Install server dependencies
 ```bash
 cd server
 npm install
 ```
 
-# Install client dependencies
+Install client dependencies
 ```bash
 cd ../client
 npm install
@@ -28,7 +26,7 @@ npm install
 
 4. Start the server:
 
-# Inside the server folder
+Inside the server folder
 ```bash
 nodemon index.js
 ```
@@ -45,7 +43,7 @@ npm start
 ```
 
 
-Features
-Create New Task: Users can create new tasks with deadlines to keep track of upcoming work.
-Update Task: Existing tasks can be updated to reflect changes or progress.
-Delete Task: Completed tasks can be deleted to maintain a clean task list.
+Features:
+1. Create New Task: Users can create new tasks with deadlines to keep track of upcoming work.
+2. Update Task: Existing tasks can be updated to reflect changes or progress.
+3. Delete Task: Completed tasks can be deleted to maintain a clean task list.
